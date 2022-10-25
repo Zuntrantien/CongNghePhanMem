@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.home {
+    background-image: url(/images/beach-family.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.786);
+}
+
+.home_login {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 30px 50px;
+}
+
+.home_login ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.home_login ul li {
+    padding: 0px 5px;
+}
+
+.home_list--list{
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home_list--contact {
+    display: flex;
+    margin-top: 15px;
+}
+
+.home_list--contact li {
+    list-style-type: none;
+    padding: 0px 15px;
+    text-decoration: none;
+
+}
+.home_list--contact li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home_list--topic  {
+    list-style-type: none;
+    text-align: center;
+}
+
+.home_content {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.home_content--topic {
+    text-align: center;
+}
+
+.home_book {
+    height: 200px;
+    width: 100%;
+}
